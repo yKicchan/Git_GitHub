@@ -13,8 +13,8 @@ body {
     padding: 10px;
     font-weight: bold;
     vertical-align: top;
-    color: #36d;
-    border-bottom: 2px solid #248;
+    color: #ff557b;
+    border-bottom: 2px solid #f24970;
 }
 
 .table tbody th {
@@ -53,7 +53,7 @@ h2 {
     padding: 0.25em 0.5em;
     color: #494949;
     background: transparent;
-    border-left: solid 5px #7db4e6;
+    border-left: solid 5px #fd8484;
 }
 
 .buy {
