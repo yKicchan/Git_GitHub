@@ -33,7 +33,6 @@ $(function() {
     });
 });
 
-
 //商品の追加処理
 function addCart(no, name, price, num) {
     var row = "<tr class=\"row\">";
