@@ -17,7 +17,13 @@ $(function(){
                     row += "<td class=\"name\">" + data[i].name + "</td>\n"; // 商品名
                     row += "<td class=\"price\">" + data[i].price + "</td>\n"; // 単価
                     row += "<td class=\"num\"><input type=\"number\" min=\"1\" /></td>\n";
-                    row += "<td><input class=\"buy\" type=\"button\" value=\"購入\" /></td>\n";
+
+                    //  データベースに取り扱いフラグを追加。値が0でなければ、購入ボタンを押すことが可能
+                    if(data[i].is_handling != 0){
+                      row += "<td><input class=\"buy\" type=\"button\" value=\"購入\" /></td>\n";
+                    } else {
+                      row += "<td><input class=\"buy\" disabled=\"disabled\"  type=\"button\" value=\"購入\" /></td>\n";
+                    }
                     row += "<tr>\n";
                     // 商品テーブルに追加
                     $("#products").append(row);
