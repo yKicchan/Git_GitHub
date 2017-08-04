@@ -1,5 +1,5 @@
 body {
-    background-color: #f9fdff;
+    background-color: #FFF3F3;
 }
 .table {
     width: 100%;
@@ -13,8 +13,8 @@ body {
     padding: 10px;
     font-weight: bold;
     vertical-align: top;
-    color: #36d;
-    border-bottom: 2px solid #248;
+    color: #ff557b;
+    border-bottom: 2px solid #f24970;
 }
 
 .table tbody th {
@@ -38,13 +38,13 @@ body {
 }
 
 h1 {
-    color: #5bafff;
+    color: #ff557b;
     text-align: center;
     padding: 0.25em;
-    border-top: solid 2px #6cb4e4;
-    border-bottom: solid 2px #6cb4e4;
-    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px, #e9f4ff 3px, #e9f4ff 7px);
-    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+    border-top: solid 2px #ff557b;
+    border-bottom: solid 2px #ff557b;
+    background: -webkit-repeating-linear-gradient(-45deg, #fff0f0, #fff0f0 3px, #ffe5e5 3px, #ffe5e5 7px);
+    background: repeating-linear-gradient(-45deg, #fff0f0, #fff0f0 3px, #ffe5e5 3px, #ffe5e5 7px);
 }
 
 h2 {
@@ -53,7 +53,7 @@ h2 {
     padding: 0.25em 0.5em;
     color: #494949;
     background: transparent;
-    border-left: solid 5px #7db4e6;
+    border-left: solid 5px #fd8484;
 }
 
 .buy {
