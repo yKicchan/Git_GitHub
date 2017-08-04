@@ -27,11 +27,6 @@ $(function() {
     $(".del").live('click', function() {
         $(this).parent().parent().fadeOut(450);
     });
-
-    //クリア
-    $("#clear").click(function() {
-        $(".row").remove();
-    });
 });
 
 //商品の追加処理
