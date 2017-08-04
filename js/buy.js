@@ -27,7 +27,12 @@ $(function() {
     $(".del").live('click', function() {
         $(this).parent().parent().fadeOut(450);
     });
+   
+    $("#clear").live('click', function(){
+        $(".row").remove();
+    });
 });
+
 
 //商品の追加処理
 function addCart(no, name, price, num) {
